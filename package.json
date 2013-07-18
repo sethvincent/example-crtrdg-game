@@ -1,0 +1,19 @@
+{
+  "name": "example-crtrdg-game",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "beefy game.js:bundle.js --live"
+  },
+  "dependencies": {
+    "crtrdg-gameloop": "~0.0.1",
+    "crtrdg-entity": "~0.0.1",
+    "crtrdg-keyboard": "~0.0.2",
+    "crtrdg-mouse": "~0.0.1",
+    "inherits": "~2.0.0",
+    "aabb-2d": "0.0.0"
+  },
+  "devDependencies": {
+    "beefy": "~0.4.0",
+    "browserify": "~2.25.0"
+  }
+}

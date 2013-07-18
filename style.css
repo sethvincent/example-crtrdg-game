@@ -1,0 +1,19 @@
+html,
+body {
+  font: 16px/1.2 "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+h1#title {
+  margin: 30px 0px;
+  text-align: center;
+  font-weight: 300;
+}
+
+canvas#game {
+  display: block;
+  margin: 0px auto;
+}
